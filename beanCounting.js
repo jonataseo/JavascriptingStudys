@@ -1,11 +1,7 @@
 
 
 function countBs(toCheckString) {
-    let numberOfBs = 0;
-    for(let index = 0; index < toCheckString.length; index++) {
-        if(toCheckString[index] === "B")
-            numberOfBs++;
-    }
+    let numberOfBs = countChar(toCheckString, "B");
     return numberOfBs;
 }
 
